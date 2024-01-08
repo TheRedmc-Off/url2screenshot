@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <PublishSingleFile>true</PublishSingleFile>
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Selenium.WebDriver" Version="4.1.0" />
+    <PackageReference Include="WebDriverManager" Version="2.17.1" />
+  </ItemGroup>
+
+</Project>
